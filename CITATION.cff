@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "EK1D Tutorial: One-Dimensional Electrokinetic Reactive Transport Model"
+type: software
+version: 0.1.0
+
+authors:
+
+* family-names: "Mahyapour"
+  given-names: "Ramin"
+  orcid: "https://orcid.org/0000-0001-5025-2132"
+  affiliation: "James Cook University"
+
+repository-code: "https://github.com/ramini68/EK1D-tutorial"
+license: MIT
+
+keywords:
+
+* electrokinetic reactive transport
+* Nernst-Planck
+* electroosmosis
+* porous media
+* reactive transport
+* finite-volume modeling
