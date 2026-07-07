@@ -1,24 +1,39 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using the metadata below."
-title: "EK1D Tutorial: One-Dimensional Electrokinetic Reactive Transport Model"
+message: "If you use this software, please cite both the software and the accompanying paper."
+title: "EK1D-tutorial: a 1-D charge-conserving electrokinetic reactive transport model"
+abstract: >-
+  A compact, self-contained one-dimensional electrokinetic reactive transport (EKRT)
+  model (numpy + matplotlib only) that reproduces the copper-transport and pH-front
+  worked example of the accompanying review and demonstrates a twelve-step EKRT
+  modelling workflow with verification and mass/charge-balance diagnostics.
 type: software
-version: 0.1.0
-
 authors:
-
-* family-names: "Mahyapour"
-  given-names: "Ramin"
-  orcid: "https://orcid.org/0000-0001-5025-2132"
-  affiliation: "James Cook University"
-
-repository-code: "https://github.com/ramini68/EK1D-tutorial"
+  - family-names: Mahyapour
+    given-names: Ramin
+    orcid: "https://orcid.org/0000-0001-5025-2132"
+    affiliation: "College of Science and Engineering, James Cook University, Townsville, QLD, Australia"
+    email: ramin.mahyapour@my.jcu.edu.au
+  - family-names: Sadat-Noori
+    given-names: Mahmood
+    affiliation: "College of Science and Engineering, James Cook University, Townsville, QLD, Australia"
+version: "1.0.0"
+date-released: "2026-07-07"
 license: MIT
-
+repository-code: "https://github.com/ramini68/EK1D-tutorial"
 keywords:
-
-* electrokinetic reactive transport
-* Nernst-Planck
-* electroosmosis
-* porous media
-* reactive transport
-* finite-volume modeling
+  - electrokinetic remediation
+  - reactive transport modeling
+  - Nernst-Planck
+  - electromigration
+  - electroosmosis
+  - charge conservation
+preferred-citation:
+  type: article
+  title: "Electrokinetic Reactive Transport Modeling in Porous Media: A Unified Approach for Coupled Transport, Hydrogeochemistry, and Model Evaluation"
+  authors:
+    - family-names: Mahyapour
+      given-names: Ramin
+      orcid: "https://orcid.org/0000-0001-5025-2132"
+    - family-names: Sadat-Noori
+      given-names: Mahmood
+  year: 2026
