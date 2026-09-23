@@ -1,0 +1,31 @@
+{
+  "scope": "Tutorial-specific screening criteria for the quantities proposed for Figure 7. These are declared engineering tolerances, not universal standards or bounds on experimental error.",
+  "hard": {
+    "relative_inventory_error": 1e-8,
+    "normalised_charge_residual": 1e-5,
+    "relative_equilibrium_residual": 1e-9,
+    "current_residual_A_m2": 1e-9,
+    "voltage_residual_V": 1e-9
+  },
+  "temporal": {
+    "final_current_relative": 0.001,
+    "integrated_current_relative": 0.001,
+    "max_phase_history_difference_over_initial_Cu": 0.001,
+    "max_charge_history_difference_over_final_charge": 0.001,
+    "sampled_current_history_L1_relative": 0.01
+  },
+  "spatial": {
+    "final_current_relative": 0.05,
+    "integrated_current_relative": 0.02,
+    "max_final_phase_inventory_difference_over_initial_Cu": 0.01,
+    "max_phase_history_difference_over_initial_Cu": 0.05,
+    "max_charge_history_difference_over_final_charge": 0.02,
+    "pH7_front_difference_mm": 0.25
+  },
+  "excluded_claims": [
+    "Converged precipitate pointwise peak height or band thickness",
+    "Physical interpretation of unverified short instantaneous-current peaks",
+    "Experimental validation or quantitative soil-remediation prediction",
+    "Copper recovery or removal from a column with blocking Cu boundaries"
+  ]
+}

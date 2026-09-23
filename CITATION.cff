@@ -1,39 +1,25 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite both the software and the accompanying paper."
-title: "EK1D-tutorial: a 1-D charge-conserving electrokinetic reactive transport model"
-abstract: >-
-  A compact, self-contained one-dimensional electrokinetic reactive transport (EKRT)
-  model (numpy + matplotlib only) that reproduces the copper-transport and pH-front
-  worked example of the accompanying review and demonstrates a twelve-step EKRT
-  modelling workflow with verification and mass/charge-balance diagnostics.
+message: "If you use this software, cite this corrected software version and its published version-specific archive when available."
+title: "EK1D copper tutorial: a one-dimensional electrokinetic reactive transport example"
 type: software
+version: "2.1.0"
+license: MIT
 authors:
   - family-names: Mahyapour
     given-names: Ramin
     orcid: "https://orcid.org/0000-0001-5025-2132"
-    affiliation: "College of Science and Engineering, James Cook University, Townsville, QLD, Australia"
-    email: ramin.mahyapour@my.jcu.edu.au
+    affiliation: "College of Science and Engineering, James Cook University, Townsville, Australia"
   - family-names: Sadat-Noori
     given-names: Mahmood
-    affiliation: "College of Science and Engineering, James Cook University, Townsville, QLD, Australia"
-version: "1.0.0"
-date-released: "2026-07-07"
-license: MIT
-repository-code: "https://github.com/ramini68/EK1D-tutorial"
+    affiliation: "College of Science and Engineering, James Cook University, Townsville, Australia"
+abstract: >-
+  A reproducible educational copper electrokinetic reactive transport calculation
+  with a closed saturated column, conservative transport, simultaneous chemical
+  equilibrium, retained refinement runs, and verification diagnostics. It demonstrates
+  redistribution and phase transfer and is not experimentally validated.
 keywords:
-  - electrokinetic remediation
-  - reactive transport modeling
+  - electrokinetic reactive transport
   - Nernst-Planck
-  - electromigration
-  - electroosmosis
-  - charge conservation
-preferred-citation:
-  type: article
-  title: "Electrokinetic Reactive Transport Modeling in Porous Media: A Unified Approach for Coupled Transport, Hydrogeochemistry, and Model Evaluation"
-  authors:
-    - family-names: Mahyapour
-      given-names: Ramin
-      orcid: "https://orcid.org/0000-0001-5025-2132"
-    - family-names: Sadat-Noori
-      given-names: Mahmood
-  year: 2026
+  - copper
+  - numerical verification
+repository-code: "https://github.com/ramini68/EK1D-tutorial"
