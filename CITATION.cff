@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this software, cite this corrected software version and its published version-specific archive when available."
+message: "If you use this software, cite version 2.1.0 using its Zenodo DOI."
 title: "EK1D copper tutorial: a one-dimensional electrokinetic reactive transport example"
 type: software
 version: "2.1.0"
+date-released: "2026-09-23"
+doi: "10.5281/zenodo.22925894"
+url: "https://zenodo.org/records/22925894"
 license: MIT
 authors:
   - family-names: Mahyapour
@@ -11,6 +14,7 @@ authors:
     affiliation: "College of Science and Engineering, James Cook University, Townsville, Australia"
   - family-names: Sadat-Noori
     given-names: Mahmood
+    orcid: "https://orcid.org/0000-0002-6253-5874"
     affiliation: "College of Science and Engineering, James Cook University, Townsville, Australia"
 abstract: >-
   A reproducible educational copper electrokinetic reactive transport calculation

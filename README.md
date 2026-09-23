@@ -87,4 +87,10 @@ Figure 7 shows pH, Cu phase inventories and cumulative charge. Figure S1 compare
 
 The complete `EK1D_Article_Release.zip` is the journal reproduction archive named in the manuscript. This source package and the separate supplements provide a smaller distribution of the same model and retained data. Archive-specific packaging utilities are retained only in that complete archive. `SOURCE_UPDATE.json` in the numerical supplement records the driver documentation and diagnostic-plot corrections. Historical datasets keep their original source hashes; the numerical solver is unchanged.
 
-Citation metadata are in `CITATION.cff`. Cite the actual deposited release URL or version DOI when available. The software is distributed under the [MIT License](LICENSE).
+The fixed version 2.1.0 reproduction archive is available from [Zenodo](https://zenodo.org/records/22925894), with version DOI [10.5281/zenodo.22925894](https://doi.org/10.5281/zenodo.22925894). The corresponding [GitHub release](https://github.com/ramini68/EK1D-tutorial/releases/tag/v2.1.0) provides the source code and the two companion supplements. Use the archived version for reproducing the article results; the main branch may contain later changes.
+
+Cite this software as:
+
+> Mahyapour, R., & Sadat-Noori, M. (2026). *EK1D copper tutorial: a one-dimensional electrokinetic reactive transport example* (Version 2.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22925894
+
+Machine-readable citation metadata are in `CITATION.cff`. The software is distributed under the [MIT License](LICENSE).
